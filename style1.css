@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+   background-color: black;
+}
+.logo img{
+    width:100% ;
+    max-width: 100px;
+}
+.logo{
+   padding-top: 30px;
+   padding-left: 50px;
+}
+.About-text{
+    margin-left: 30px;
+    font-size: 50px;
+    margin-top: 55px;
+}
+span{
+    color: orangered;
+}
+.photo img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.photo{
+    flex-wrap: wrap;
+    display: flex; 
+    margin-top: 30px;
+    justify-content: space-around;
+}
+button{
+    margin-top: 20px;
+    background-color: orangered;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: yellowgreen;
+    cursor: progress;
+}
+.icons{
+    margin-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    column-gap: 40px;
+}
